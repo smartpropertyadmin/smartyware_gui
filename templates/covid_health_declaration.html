@@ -1,0 +1,196 @@
+{% extends "css_javascript_layout.html" %}
+
+{% block base_layout %}
+     <div class="col-lg-12 col-md-12 px-1 pt-3 text-center" style="width:auto; max-width: 100%; padding-right:0px">
+        <img src={{smartpropertylogo}} class="pb-5 col-sm-12 col-md-6 col-lg-4"  alt="smartproperty_logo" class="img-fluid mt-3 pl-3"
+        <div>
+            <p><strong>
+                <h4> <span>MCST PLAN NO. {{mcst_info.MCST_no}}</span></h4>
+
+            </strong></p>
+            <p><strong>
+
+                <h4> <span>{{mcst_info.PROPERTY_NAME}}</span> <h4>
+            </strong></p>
+        </div>
+    </div>
+
+
+    <div class="content-section">
+        <form method="POST" action="">
+            {{ form.hidden_tag() }}
+            <fieldset class="form-group">
+               <h3 class="card-title mb-2">DECLARATION FORM </h3>
+                  <p class="card-text mb-3">
+                   In view of the evolving novel coronavirus (nCoV) situation in Singapore
+                      and to reduce the risk of exposure, we are taking precautionary measures
+                       to safeguard your well-being and our staff. <br /><br />
+                      To be filled for <strong>all visitors to Management Office & Estate </strong>
+                  </p>
+                <div class="form-group">
+                    <div class="h5">1. {{ form.full_name.label(class="form-control-label") }}</div>
+                    {% if form.full_name.errors %}
+                        {{ form.full_name(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.contact_no.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.full_name(class="form-control form-control-lg",placeholder="Please fill in your full name, as in NRIC.") }}
+                    {% endif %}
+                </div>
+                <div class="form-group">
+                    <div class="h5">2. {{ form.contact_no.label(class="form-control-label") }}</div>
+                    {% if form.contact_no.errors %}
+                        {{ form.contact_no(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.contact_no.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.contact_no(class="form-control form-control-lg",placeholder="Please key in your mobile number.") }}
+                    {% endif %}
+                </div>
+                <div class="form-group">
+                    <div class="h5">3. {{ form.date_registered.label(class="form-control-label") }}</div>
+                    {% if form.date_registered.errors %}
+                        {{ form.date_registered(class="form-control col-sm-12 col-lg-4 col-md-4 form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.date_registered.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.date_registered(class="form-control form-control-lg col-sm-12 col-lg-4 col-md-4", value= today_date) }}
+                    {% endif %}
+                </div>
+                <div class="form-group">
+                    <div class="h5">4. {{ form.unit_visted.label(class="form-control-label") }}</div>
+                    {% if form.unit_visted.errors %}
+                        {{ form.unit_visted(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.unit_visted.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.unit_visted(class="form-control form-control-lg",placeholder="Please key in the unit/facility visiting.") }}
+                    {% endif %}
+                </div>
+                <div class="form-group">
+                    <div class="h5">5. {{ form.nric.label(class="form-control-label") }}</div>
+                    {% if form.nric.errors %}
+                        {{ form.nric(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.nric.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.nric(class="form-control form-control-lg",placeholder="Please key the last 4 characters of your NRIC/FIN.") }}
+                    {% endif %}
+                </div>
+                <div class="form-group">
+                    <div class="h5">6. Have you been to mainland China in the past 14 days?</div>
+                    {{ form.mainland_visit(class="", style="list-style-type:none")}}
+
+                </div>
+                <div class="form-group">
+                    <div class="h5">7. Do you have any family members (living with you) who have been to mainland China in the past 14 days?</div>
+                    {{ form.family_visit(class="", style="list-style-type:none")}}
+
+                </div>
+                <div class="form-group">
+                    <div class="h5">8. Are you currently having a fever?</div>
+                    {{ form.fever(class="", style="list-style-type:none")}}
+
+                </div>
+                <div class="form-group">
+                    <div class="h5">9. Are you currently having respiratory symptoms? (eg. Cough, shortness of breath)</div>
+                    {{ form.respiratory(class="", style="list-style-type:none")}}
+
+                </div>
+                <div class="form-group">
+                    <div class="h5">10. Have you been in contact with an infected patient of Covid-19 or in contact with a person who has stayed with, visited provided care for an infected patient of Covid-19 in the past 14 days?</div>
+                    {{ form.contact_convid(class="", style="list-style-type:none")}}
+
+                </div>
+                <div class="form-group">
+                    <div class="h5">11. Have you been to any of the 5 Covid-19 clusters in the past 14 days?</div>
+                        <div class="custom-control custom-checkbox">
+                            <div>
+                                <input type="checkbox" class="custom-control-input" value="Grand hyatt hotel" name="place_visited"  id="a">
+                                <label class="custom-control-label" for="a">A. Grand hyatt hotel </label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="custom-control-input" value="The life church and mission Singapore @paya lebar" name="place_visited"  id="b">
+                                <label class="custom-control-label" for="b"> B. life church and mission Singapore @paya lebar</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="custom-control-input" value="Seletar Aerospace Heights Work site" name="place_visited"  id="c">
+                                <label class="custom-control-label" for="c"> C. Seletar Aerospace Heights Work site</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="custom-control-input" value="Yong Thai Hang Shop @ Cavan Road" name="place_visited"  id="d">
+                                <label class="custom-control-label" for="d">D. Yong Thai Hang Shop @ Cavan Road </label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="custom-control-input" value="Grace Assembly of God @ Tanglin/ Bukit Batok" name="place_visited"  id="e">
+                                <label class="custom-control-label" for="e">E. Grace Assembly of God @ Tanglin/ Bukit Batok </label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group pt-5">
+                        <div class="custom-control custom-checkbox">
+                            <div>
+                                {{form.declaration(type="checkbox", class="custom-control-input", value="Grand hyatt hotel")}}
+                                <input type="checkbox" class="custom-control-input" value="Grand hyatt hotel" name="declaration"  id="declaration">
+                                <label class="custom-control-label" for="declaration">KINDLY NOTE THAT BY SUBMITTING YOUR INFORMATION,
+                                    YOU AGREE AND CONSENT TO MCST {{mcst_info.MCST_no}} - {{mcst_info.PROPERTY_NAME}},
+                                    ITS RELATED SERVICE PROVIDERS AND AUTHORITIES IN COLLECTING,
+                                    USING AND DISCLOSING SUCH INFORMATION FOR THE PURPOSES OF CONTACTING YOU IN EVENT OF ANY EMERGENCIES,
+                                    AND RELATED PURPOSES.</label>
+                            </div>
+                        </div>
+                    </div>
+            </fieldset>
+            <div class="form-group">
+                {{ form.submit(class="btn btn-outline-info btn-lg col-12") }}
+
+            </div>
+        </form>
+    </div>
+
+{% endblock base_layout %}
+
+
+
+
+{% block add_on_js %}
+<script>
+    $(document).ready(function(){
+      $(".form-control").on("keyup", function(event) {
+        if (event.keyCode === 13 {
+            event.preventDefault();
+            $(."form-check-input").click();
+        }
+
+        });
+    });
+
+    var Mcst_list = [
+    {% for Project_item in Project_items %}
+        "{{Project_item.__dict__.get('MCST_no')}}",
+    {% endfor %}
+    "others"];
+
+    $('#Mcst_no').mdbAutocomplete({
+        data: Mcst_list
+    });
+
+</script>
+{% endblock add_on_js %}
