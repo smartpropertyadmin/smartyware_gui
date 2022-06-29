@@ -1,24 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8dd83ee-a6c4-4a16-ae04-ff3d6c0fcbe8" name="Default Changelist" comment="" />
+    <list default="true" id="c8dd83ee-a6c4-4a16-ae04-ff3d6c0fcbe8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/js/vendors~vendor.c2313e17.chunk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/flask_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flask_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCST_declaration_list.db" beforeDir="false" afterPath="$PROJECT_DIR$/MCST_declaration_list.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copier/COPIER_ADD_CODE.py" beforeDir="false" afterPath="$PROJECT_DIR$/copier/COPIER_ADD_CODE.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copier/Canon_IR3320_Extract.pyw" beforeDir="false" afterPath="$PROJECT_DIR$/copier/Canon_IR3320_Extract.pyw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copier/Canon_IR5540_Extract.pyw" beforeDir="false" afterPath="$PROJECT_DIR$/copier/Canon_IR5540_Extract.pyw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copier/Ricoh_C3503_Extract.pyw" beforeDir="false" afterPath="$PROJECT_DIR$/copier/Ricoh_C3503_Extract.pyw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcst/change_of_mailing.py" beforeDir="false" afterPath="$PROJECT_DIR$/mcst/change_of_mailing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcst/datafile/IMAGE HEADER/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcst/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/mcst/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcst/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/mcst/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcst/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/mcst/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site.db" beforeDir="false" afterPath="$PROJECT_DIR$/site.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bank-change-of-mailing.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bank-change-of-mailing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/utils/common_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/utils/common_func.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110269.0798722.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110272.2864283.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110274.4126835.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110278.5297227.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110285.57006912.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110289.96120615.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110290.02734814.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110293.22954617.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110293.29837916.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110296.68435718.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110298.44758820.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110303.02012322.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110304.94723424.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110309.06408426.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110313.51078830.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110317.28239632.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110317.31431133.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110320.75537934.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110322.30201536.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110326.58957638.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110326.60254139.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110330.12899740.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110330.12996641.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110333.21281242.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110333.32009143.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110336.8443744.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110341.41085348.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110344.54592450.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110345.65580751.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110347.49764752.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110348.61122453.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110351.54279955.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110406.56064960.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110411.56248161.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110416.35557363.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110418.07923164.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110422.54819166.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110422.54819167.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110425.8240869.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110425.97664468.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110429.44914270.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110431.56739572.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110432.76901173.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110434.50424274.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110438.47191277.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110443.4622179.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110460.73954582.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110492.52294885.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110494.26955986.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110497.88235588.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110510.17513589.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110898.54086992.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110937.0313596.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110939.22754597.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110958.32589899.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110960.562768100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110995.181811103.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582110999.21637105.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582111017.50238107.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582111035.979162109.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582111038.236709110.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582111040.413012111.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582111042.589536112.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582111093.002828116.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582111163.042494121.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582111181.498268123.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582111183.71931124.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582111201.899584126.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582111204.093933127.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582111206.19853128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582111208.298949129.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582111274.531023134.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582111276.91503135.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582111279.097122136.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582111281.230065137.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582111299.732192139.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582254988.663313144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/temp_barcode_1582255027.731388148.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/MCST_retrival.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/MCST_retrival.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Main_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Main_dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Projectlisting.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Projectlisting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/change_of_mailing.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/change_of_mailing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/change_of_mailing1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/covid_health_declaration.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/covid/covid_health_declaration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/covid_listing.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/covid/covid_listing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/css_javascript_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css_javascript_layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/testing.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/testing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.png" beforeDir="false" afterPath="$PROJECT_DIR$/test.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/utils.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VNBqX9ZlgCzdVnc5ybbPcvcN9e" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.COPIER_ADD_CODE">
+    <configuration name="COPIER_ADD_CODE" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="flask_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/copier" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/copier/COPIER_ADD_CODE.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="flask_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -42,6 +188,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.COPIER_ADD_CODE" />
         <item itemvalue="Python.run" />
       </list>
     </recent_temporary>
@@ -72,45 +219,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="579" y="183" key="FileChooserDialogImpl" timestamp="1582254586978">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1594" height="223" key="GridCell.Tab.0.bottom" timestamp="1642585258417">
+      <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state x="579" y="183" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1582254586978" />
-    <state x="579" y="183" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1577942821778" />
-    <state width="1579" height="221" key="GridCell.Tab.0.bottom" timestamp="1582254588057">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1594" height="223" key="GridCell.Tab.0.bottom/0.0.1600.852/1600.0.1600.852@0.0.1600.852" timestamp="1642585258417" />
+    <state width="1594" height="223" key="GridCell.Tab.0.center" timestamp="1642585258417">
+      <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1579" height="221" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1582254588057" />
-    <state width="1362" height="206" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1577942824032" />
-    <state width="1579" height="221" key="GridCell.Tab.0.center" timestamp="1582254588057">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1594" height="223" key="GridCell.Tab.0.center/0.0.1600.852/1600.0.1600.852@0.0.1600.852" timestamp="1642585258417" />
+    <state width="1594" height="223" key="GridCell.Tab.0.left" timestamp="1642585258417">
+      <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1579" height="221" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1582254588057" />
-    <state width="1362" height="206" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1577942824032" />
-    <state width="1579" height="221" key="GridCell.Tab.0.left" timestamp="1582254588057">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1594" height="223" key="GridCell.Tab.0.left/0.0.1600.852/1600.0.1600.852@0.0.1600.852" timestamp="1642585258417" />
+    <state width="1594" height="223" key="GridCell.Tab.0.right" timestamp="1642585258417">
+      <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1579" height="221" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1582254588057" />
-    <state width="1362" height="206" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1577942824032" />
-    <state width="1579" height="221" key="GridCell.Tab.0.right" timestamp="1582254588057">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1594" height="223" key="GridCell.Tab.0.right/0.0.1600.852/1600.0.1600.852@0.0.1600.852" timestamp="1642585258417" />
+    <state x="301" y="69" key="SettingsEditor" timestamp="1642585230097">
+      <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1579" height="221" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1582254588057" />
-    <state width="1362" height="206" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1577942824032" />
-    <state x="301" y="72" width="998" height="713" key="SettingsEditor" timestamp="1582254573299">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="301" y="72" width="998" height="713" key="SettingsEditor/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1582254573299" />
-    <state x="301" y="72" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1577938894075" />
-    <state x="495" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1577938617237">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="495" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1577087565183" />
-    <state x="495" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1577938617237" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1582254583850">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1582254583850" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1577942796984" />
+    <state x="301" y="69" key="SettingsEditor/0.0.1600.852/1600.0.1600.852@0.0.1600.852" timestamp="1642585230097" />
   </component>
 </project>

@@ -1,12 +1,5 @@
-from flask_project import create_app
+from copier.Tkinter_app import App
 
-app = create_app()
-
-
-# if __name__ == '__main__':
-#
-#     app.run(debug=True)
-
-
-
-
+if __name__ == "__main__":
+    app = App()
+    app.start()
